@@ -7,5 +7,5 @@ Short project description: Last August, when I didn't know to code yet, I was le
 The initial design was made in Figma, and now I did code it in HTML, CSS and JS using Angular as a tool. This is my first Angular project I do for my code portofolio.
 I will continue with a resume of what I did, how I did it and I will evaluate my work based on some good practices and programming principles and how I implemented them.
 
-#What I did
+## What I did
 I transformed the current ANAF webpage in something more easy to follow and understand, by that improving the overall experience of anyone visiting the site. Everything on the site is grouped accordingly to its purpose, so you can find the thing you are interested about. In this way you won't feel lost on the page searching for something that should be in a category, only to find it somewhere else. Everything is intuitively grouped, and each 'big' topic has its own page/section.
