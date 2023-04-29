@@ -1,0 +1,16 @@
+<p class="intro">Conform codului de procedură fiscală, orice participant în economie pe teritoriul României este obligat sa depună și să completeze, după caz, un anumit număr de formulare fiscale. Ele sunt fie declarații, fie cereri, deconturi, ș.a.</p>
+<p class="intro"><strong><a href="https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/toate_formularele_30032017.htm" target="_blank">Aici</a></strong> găsești toate formularele cu tot cu explicații. În explicații vei gasi:</p>
+<ul>
+  <li
+  *ngFor="let enumeratie of enumeratii"
+  [innerHTML]="enumeratie"
+  ></li>
+</ul>
+
+<div class="button">
+  <img src="../../../assets/SageataSpreDreapta.png">
+  <a href="https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/toate_formularele_30032017.htm" target="_blank">
+    <button>Vezi Formularele</button>
+  </a>
+  <img src="../../../assets/SageataSpreStanga.png">
+</div>

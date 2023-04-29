@@ -1,0 +1,12 @@
+<div class="container"
+[ngClass]="index<3 ? '' : 'small'"
+>
+  
+  <p>{{titlu}}</p>
+  <ul>
+    <li
+    *ngFor="let element of elements; let i=index"
+    >{{element}}</li>
+  </ul>
+
+</div>

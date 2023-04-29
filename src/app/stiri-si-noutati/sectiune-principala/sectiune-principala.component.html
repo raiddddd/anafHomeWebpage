@@ -1,0 +1,49 @@
+
+
+<div class="principal">
+
+
+  <ng-container>
+
+    <div
+
+    class="colLeft">
+      <div
+      *ngFor="let stire of stiri; let i=index"
+      >
+
+        <p
+         *ngIf="i%2===0"
+        class="date">{{stire.data}}</p>
+        <h3
+         *ngIf="i%2===0"
+        class="newsTitle">{{stire.titlu}}</h3>
+        <div
+         *ngIf="i%2===0"
+        class="newsContent">{{stire.continut}}</div>
+        <p
+         *ngIf="i%2===0"
+        class="seeMore">Citeste mai departe</p>
+      </div>
+    </div>
+  
+    <div
+    class="colRight">
+      <div *ngFor="let stire of stiri; let i=index">
+        <p
+        *ngIf="i%2===1"
+        class="date">{{stire.data}}</p>
+        <h3
+        *ngIf="i%2===1"
+        class="newsTitle">{{stire.titlu}}</h3>
+        <div
+        *ngIf="i%2===1"
+        class="newsContent">{{stire.continut}}</div>
+        <p
+        *ngIf="i%2===1"
+        class="seeMore">Citeste mai departe</p>
+      </div>
+    </div>
+</ng-container>
+
+</div>

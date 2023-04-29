@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+p, li {
+  color: var(--blue-7);
+}
+
+p {
+  font-size: var(--font-size-24);
+  font-weight: var(--font-weight-600);
+}
+
+li {
+  font-size: 18px;
+  font-weight: var(--font-weight-600);
+  margin-bottom: 10px;
+  cursor: pointer;
+  list-style-type: none;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+.sectiuneCategorii {
+  margin: 60px 10px 0px 50px;
+  max-height: 40px;
+  overflow: hidden;
+  transition-property: max-height;
+  transition-duration: 0.4s;
+  max-width: 300px
+}
+
+.categorieSageata {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 100px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.categorieSageata:hover {
+  text-decoration: underline;
+}
+
+.fitArrow {
+  background-color: var(--blue-7);
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 10px;
+  transform: rotate(0deg);
+  transition: transform 0.4s;
+}
+
+svg {
+  fill: var(--blue-7);
+  width: 20px;
+  height: 20px;
+}
+
+path {
+  stroke: var(--white);
+}
+
+/* SectiuneCategorii dupa ce fac click si arat tot */
+
+.sectiuneCategorii.pressed {
+  max-height: 2000px;
+  transition-property: max-height;
+  transition-duration: 0.4s;
+}
+
+.pressed .fitArrow {
+  transform: rotate(180deg);
+  transition: transform 0.4s;
+}

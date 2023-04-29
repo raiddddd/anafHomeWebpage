@@ -1,0 +1,23 @@
+img {
+  width: 100%;
+}
+
+h3 {
+  font-size: 32px;
+  max-width: 600px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+p {
+  font-size: 24px;
+  max-width: 600px;
+  text-align: center;
+}
+
+.textIntro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #2E2A72;
+}

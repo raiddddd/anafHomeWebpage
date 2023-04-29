@@ -1,0 +1,115 @@
+.container {
+  margin: 0px 20px 100px 100px;
+}
+
+* {
+  font-size: var(--font-size-24);
+  color: var(--blue-7);
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  font-weight: var(--font-weight-500);
+}
+
+h3 {
+  font-weight: var(--font-weight-700);
+}
+
+svg {
+  transform: rotate(0deg);
+  transition-duration: 0.4s;
+}
+
+.titluSageata {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  cursor: pointer;
+  width: fit-content;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.titluSageata:hover {
+  background-color: var(--blue-7);
+}
+
+.titluSageata:hover p {
+  color: var(--white);
+}
+
+.titluSageata:hover path {
+  fill: var(--white);
+}
+
+.titluSageata * {
+  pointer-events: none;
+}
+
+.pressed{
+  background-color: var(--blue-7);
+}
+
+.pressed p {
+  color: var(--white);
+}
+
+.pressed path {
+  fill: var(--white);
+}
+
+.pressed svg {
+  transform: rotate(180deg);
+  transition-duration: 0.4s;
+}
+
+.border-around {
+  /* margin: 50px 5% 50px 0px; */
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px solid var(--blue-7);
+  padding: 30px 35px;
+  border-radius: 20px;
+}
+
+.showed h3,
+.showed p {
+  margin-bottom: 20px;
+}
+
+.border-left {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-left: 2px solid var(--blue-7);
+  padding: 30px 35px;
+  border-radius: 20px;
+}
+
+li {
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-weight: var(--font-weight-600);
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+.modernizareAdm {
+  margin-top: 30px;
+  margin-left: 30px;
+  font-weight: var(--font-weight-600);
+  cursor: pointer;
+}
+
+.modernizareAdm:hover {
+  text-decoration: underline;
+}
+
+a {
+  
+}

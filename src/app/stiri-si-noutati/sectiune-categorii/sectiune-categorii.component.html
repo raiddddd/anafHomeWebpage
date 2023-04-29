@@ -1,0 +1,24 @@
+
+
+<div class="sectiuneCategorii"
+[ngClass]="{'pressed': clasaPressed}"
+>
+
+  <div class="categorieSageata"
+  (click)="addRemoveClass()"
+  >
+    <p>Categorii</p>
+    <div class="fitArrow">
+      <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8.78329 1.34441L1.13885 7.29009L5.37727 7.29009L5.38576 16.6333L12.1808 16.6333L12.1808 7.29009L16.4277 7.29009L8.78329 1.34441Z" stroke="white" stroke-width="1.69877" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+      
+  </div>
+
+  <li
+  *ngFor="let categorie of categoriiStiri"
+  >
+  {{categorie}}
+</li>
+</div>

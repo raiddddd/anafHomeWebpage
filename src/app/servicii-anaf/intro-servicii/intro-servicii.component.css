@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  width: 100%;
+  position: relative;
+  z-index: -10;
+}
+
+div {
+  background-color: #2E2A72;
+  width: 900px;
+  border-radius: 30px;
+  margin: -30px auto;
+  margin-bottom: 150px;
+}
+
+p {
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  padding: 25px 10px;
+}

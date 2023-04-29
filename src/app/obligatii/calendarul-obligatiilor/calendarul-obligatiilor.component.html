@@ -1,0 +1,42 @@
+<p class="intro"><span class="strong">Potrivit legii 207/2015 privind Codul de Procedură Fiscală, obligațiile fiscale sunt definite ca fiind:</span> “Obligația de plată a oricărei sume care se cuvine bugetului general consolidat, reprezentând obligația fiscală principală și obligația fiscală accesorie”.</p>
+<p class="dupaIntro">La rândul lor cele două sunt definite astfel:</p>
+<ul>
+  <li
+  *ngFor="let definitie of definitii"
+  [innerHTML]="definitie"
+  ></li>
+</ul>
+
+<h3>Pe scurt, Codul de procedură Fiscală stabilește, determină și oferă cadrul legal în ceea ce privește procedurile aferente plații taxelor, impozitelor, etc.</h3>
+
+
+<div class="calendarCuImg">
+  <div class="calendarObligatii">
+    <p><a class="strong" href="https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Calendar/Calendar_obligatii_fiscale_2023.htm" target="_blank">Aici găsiți calendarul obligațiilor fiscale</a> pe anul 2022, grupate pe fiecare lună în parte până la luna curentă inclusiv.</p>
+    <p>În calendarul obligațiilor fiscale veți găsi informații despre:</p>
+    <ul>
+      <li
+      *ngFor="let element of calendar"
+      [innerHTML] ="element"
+      ></li>
+    </ul>
+  </div>
+
+  <img src="../../../assets/ImagObligatii/Calendar.png">
+</div>
+
+<p class="obligatiiDeclarative">Mai departe <a href="https://www.anaf.ro/anaf/internet/ANAF/servicii_online/reg_AMEF/!ut/p/a1/pZBLC8IwEIR_Ta7NaLFUbxGsVVB8Ys2lpBJroCaSRvv3tZ58K7in3eWbYXYppwnlWpxULpwyWhT1zIM0bsRB3AybQ8z8ENNWN-p123P0mX8B1ndAPEUNDGat_gRY-P_pEfymx5ti-KZfUf6APF_wEagjXoEPGYaU54XJrv9cM535YU65lVtppfWO9rLeOXcoOwQEVVV5QoutZw1B3RAo7aTV0hGwMYsISmlPaqNUanShtCSwMk_ZqBe9st-Z0tHkxpUe9stlAjXZr8LyDBikMCg!/dl5/d5/L2dBISEvZ0FBIS9nQSEh/" target="_blank">găsiți și Obligațiile declarative pentru utilizatorii/distribuitorii de aparate de marcat fiscale</a> (AMEF). Acestea contin aceleași tipuri de informații ca și cele de mai sus, și anume;</p>
+<ul>
+  <li
+  *ngFor="let element of calendar"
+  [innerHTML]="element"
+  ></li>
+</ul>
+
+<div class="button">
+  <img src="../../../assets/SageataSpreDreapta.png">
+  <a href="https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Calendar/Calendar_obligatii_fiscale_2023.htm" target="_blank">
+    <button>Vezi<br>Calendarul Obligatiilor</button>
+  </a>
+  <img src="../../../assets/SageataSpreStanga.png">
+</div>

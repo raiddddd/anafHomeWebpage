@@ -1,0 +1,55 @@
+h3 {
+  font-size: 32px;
+  color: #2E2A72;
+  text-align: center;
+  margin-top: 25px;
+}
+
+p {
+  margin: 0px;
+}
+
+.titleText p {
+  font-size: 24px;
+  color: #2E2A72;
+  text-align: center;
+  margin: 0px;
+  margin-top: 25px;
+}
+
+button {
+  background-color: #3D389A;
+  color: #FFFFFF;
+  border: none;
+  font-size: 24px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2E2A72;
+}
+
+.titleText {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: 0px auto;
+  align-items: center;
+}
+
+.buttonIndemn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  gap: 15px;
+}
+
+.mainComponent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}

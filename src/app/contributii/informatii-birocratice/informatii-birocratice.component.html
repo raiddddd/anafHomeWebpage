@@ -1,0 +1,25 @@
+<img class="src" src="../../../assets/ImagContributii/ImagBirocratieSiText.png">
+
+<div class="toate">
+
+  
+  <div class="carousel">
+    <app-carousel-cards
+    *ngFor="let info of infoCarousel; let i=index"
+    [class]="classDeclaring(nrDir, i)"
+    [titlu]="info.titlu"
+    [outer]="info.outerHTML"
+    [buttonTxt]="info.buton"
+    ></app-carousel-cards>
+  </div>
+  
+  <div class="sagetiNumar">
+    <img
+    (click)="onChangeLeft()"
+    src="../../../../assets/Imaghome/SageataStanga.png">
+    <span>{{nrDir+1}}/4</span>
+    <img
+    (click)="onChangeRight()"
+    src="../../../../assets/Imaghome/SageataDreapta.png">
+  </div>
+</div>

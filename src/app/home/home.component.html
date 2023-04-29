@@ -1,0 +1,12 @@
+<app-intro></app-intro>
+
+<app-sectiuni-principale
+*ngFor="let info of informatii; let i = index"
+[class]="i%2===0 ? 'normal' : 'invers'"
+[text]="info.text"
+[textBtn]="info.textBtn"
+[ImgSrc]="info.img"
+[route]="routes[i]"
+></app-sectiuni-principale>
+
+<app-extra-info></app-extra-info>

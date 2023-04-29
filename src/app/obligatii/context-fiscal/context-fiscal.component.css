@@ -1,0 +1,66 @@
+* {
+  color: #2E2A72;
+  font-size: 24px;
+  margin-left: 60px;
+}
+
+.intro {
+  margin-left: 90px;
+  font-size: 24px;
+}
+
+.imagCuText {
+  margin-top: 50px;
+}
+
+.imagCuText img {
+  width: 800px;
+  display: block;
+  margin: 0px auto;
+}
+
+.imagCuText p {
+  font-size: 32px;
+  font-weight: 600;
+  width: 700px;
+  text-align: center;
+  margin: -245px auto 200px auto;
+  color: white;
+}
+
+ul {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+li {
+  font-weight: 600;
+}
+
+.button {
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 120px;
+}
+
+.button * {
+  margin: 0px;
+}
+
+.button button {
+  padding: 5px 12px;
+  font-size: 24px;
+  color: white;
+  background-color: #3D389A;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button button:hover {
+  background-color: #201D55;
+}

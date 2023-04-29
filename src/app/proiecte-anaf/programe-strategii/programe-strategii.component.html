@@ -1,0 +1,17 @@
+
+<div class="textImage">
+
+  <div class="text">
+    <p>Programele și strategiile ANAF reflectă viziunea ANAF cu privire la rolul instituției în relația cu actorii economici. Acestea prezintă în linii mari inițiativele și indicațiile în legătură cu diverse teme ale proiectelor.</p>
+    <p>Consultați următoarele documente pentru a afla mai multe detalii:</p>
+  </div>
+  
+  <img src="../../../assets/ImagProiecte/WorkOnProjects.png">
+</div>
+  
+<ul>
+  <li
+  *ngFor="let element of listaStrategii"
+  [innerHTML]="element"
+  ></li>
+</ul>

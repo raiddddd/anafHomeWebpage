@@ -1,0 +1,19 @@
+* {
+  color: var(--blue-7);
+  font-size: var(--font-size-24);
+}
+
+p {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.strong {
+  font-weight: var(--font-weight-700);
+  cursor: pointer;
+}
+
+.strong:hover {
+  text-decoration: underline;
+}

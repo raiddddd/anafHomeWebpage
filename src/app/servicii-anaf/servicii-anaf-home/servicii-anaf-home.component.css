@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1351px;
+  margin: 0px auto;
+  margin-bottom: 140px;
+}
+
+
+@media (min-width: 1313px)  {
+  .down {
+    margin-top: 40px;
+  }
+}

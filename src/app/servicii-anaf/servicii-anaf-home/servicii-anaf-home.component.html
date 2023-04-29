@@ -1,0 +1,12 @@
+<app-intro-servicii></app-intro-servicii>
+
+<div class="container">
+  
+  <app-servicii
+  *ngFor="let componenta of componente; let i = index"
+  [index]="i"
+  [ngClass]="{'down': i===1||i===4, 'small': i<3?'':'small'}"
+  [titlu]="componenta.titlu"
+  [elements]="componenta.elemente"
+  ></app-servicii>
+</div>

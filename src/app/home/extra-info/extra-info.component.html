@@ -1,0 +1,26 @@
+<div class="subTitlu">
+  <p>Cauți informații despre ANAF?</p>
+  <p>Caută în secțiunile de mai jos și află mai multe despre ANAF România și Uniunea Europeană</p>
+</div>
+<div class="extraSageti">
+
+<div class="sectiuneExtra">
+  <app-divuri-carusel
+  *ngFor="let card of cards; let i=index"
+  [class]="classDeclaring(nrDiv, i)"
+  [titlu]="card.title"
+  [text]="card.text"
+  [nrPag]="card.orderNumber"
+  ></app-divuri-carusel>
+</div>
+
+<div class="sagetiNumar">
+  <img
+  (click)="onChangeLeft()"
+  src="../../../../assets/Imaghome/SageataStanga.png">
+  <span>{{nrDiv+1}}/8</span>
+  <img
+  (click)="onChangeRight()"
+  src="../../../../assets/Imaghome/SageataDreapta.png">
+</div>
+</div>

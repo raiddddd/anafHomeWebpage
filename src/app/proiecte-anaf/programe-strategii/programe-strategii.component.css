@@ -1,0 +1,47 @@
+::ng-deep .strong {
+  font-weight: var(--font-weight-600);
+}
+
+::ng-deep a {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+::ng-deep a:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: var(--font-size-24);
+  color: var(--blue-7);
+  max-width: 700px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.textImage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  margin: 0px 20px;
+  margin-bottom: 100px;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 5%;
+}
+
+li {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: var(--blue-7);
+}

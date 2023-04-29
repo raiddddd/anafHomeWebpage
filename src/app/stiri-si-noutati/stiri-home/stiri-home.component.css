@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.sectiunileTotale {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+
+.moreNews {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 35px;
+  margin-bottom: 120px;
+  cursor: pointer;
+}
+
+.moreNews:hover {
+  text-decoration: underline;
+}
+
+.moreNews p {
+  font-size: var(--font-size-24);
+  color: var(--blue-7);
+}
+
+.moreNews:hover svg {
+  animation-name: rotateArrow;
+  animation-duration: 800ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count:infinite;
+}
+
+@keyframes rotateArrow {
+  from {
+    transform: rotate(0deg);
+  }
+
+  15% {
+    transform: rotate(-25deg);
+  }
+
+  85% {
+    transform: rotate(385deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

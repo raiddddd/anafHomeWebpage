@@ -1,0 +1,21 @@
+<div class='backgroundAlbastru'>
+  <h3>Taxele conform Codului Fiscal</h3>
+  <p>Conform legii nr. 227/2015 privind Codul Fiscal (actualizată ultima dată prin Ordonanța de Urgență a Guvernului nr. 85/2022) fiecare angajat sau agent economic este obligat să plătească la stat diverse taxe și impozite.</p>
+  <div class="enumeratiiLista">
+    <app-enumeratii
+    *ngFor="let enumeratie of enumeratii"
+    [titlu]="enumeratie.titlu"
+    [unu]="enumeratie.unu"
+    [doi]="enumeratie.doi"
+    [trei]="enumeratie.trei"
+    [patru]="enumeratie.patru">
+  </app-enumeratii>
+  </div>
+</div>
+
+<div class="codFiscal">
+  <p>Codul Fiscal tratează fiecare taxă și obligație fiscală și oferă mai multe informații despre fiecare în parte.</p>
+  <a href="https://static.anaf.ro/static/10/Anaf/legislatie/Cod_fiscal_norme_2023.htm" target="_blank">
+    <button>Vezi<br>Codul Fiscal</button>
+  </a>
+</div>

@@ -1,0 +1,85 @@
+<div class="container">
+
+  <div class="titluSageata"
+  (click)="changePrezentare()"
+  [ngClass]="{'pressed': prezentare}"
+  >
+    <p>1. Prezentare</p>
+    <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10.5 18L0.540708 0.75L20.4593 0.750002L10.5 18Z" fill="#2E2A72"/>
+    </svg>
+      
+  </div>
+  <div class="showed border-around"
+  *ngIf="prezentare"
+  >
+    <h3>ANAF - actor al relaţiilor internaţionale</h3>
+    <p>Statutul pe care România l-a dobândit la data aderării la Uniunea Europeană si dezvoltarea preconizată a ţării noastre în perioada postaderării a influenţat considerabil implicarea ANAF în domeniul relaţiilor internaţionale.
+    </p>
+    <p>Totodata participarea intensă în domeniul relaţiilor internaţionale este o consecinţă directă a faptului că mediul economic se află într-o continuă dinamică. în ultimii ani a apărut o serie întreagă de provocări legate de armonizarea la nivel european a legislaţiei şi a procedurilor referitoare la administrarea impozitelor şi taxelor .
+    </p>
+    <p>Aderarea României la Uniunea Europeană obligă ANAF să participe la procesul decizional european şi să joace un rol cât mai activ prin promovarea propriilor idei şi interese. De asemenea, noul context economic impune o cooperare administrativă intensă, mai ales cu statele membre ale Uniunii Europene, pentru a combate frauda fiscală şi pentru a asigura asistenţa reciprocă la recuperarea creanţelor fiscale.
+    </p>
+    <p>În cadrul activităţilor de cooperare internaţională, administraţia noastră a beneficiat masiv de schimburi de experienţă cu parteneri externi pentru a susţine procesul intern de reformă prin transferul bunelor practici. Astfel, ANAF a beneficiat în ultimii ani de un număr mare de proiecte de înfrăţire şi de asistenţă tehnică cu finanţare din partea Uniunii Europene sau a Băncii Mondiale, proiecte care au contribuit, prin experţii străini prezenţi în România, la consolidarea şi modernizarea ANAF.
+    </p>
+    <p>Pe viitor, tocmai din perspectiva unei organizaţii tinere şi care a parcurs recent un intens proces de schimbare, ne dorim să putem oferi la rândul nostru asistenţă tehnică unor administraţii fiscale din ţări vecine, în curs de aderare sau în curs de dezvoltare.
+    </p>
+    <p>De asemenea, Agenţia Naţională de Administrare Fiscală a reuşit să stabilească relaţii de colaborare şi asistenţă reciprocă cu administraţiile fiscale europene, atât direct, cât şi în contextul participării României în cadrul Organizaţiei Intra-Europeane a Administraţiilor Fiscale (I.O.T.A.)în acelaşi timp, s-a urmărit asigurarea unei relaţii deschise cu instituţiile Uniunii Europene, demonstrând în acest fel sprijinul nostru pentru continuarea procesului de integrare europeană şi îndeplinirea obiectivelor care stau la baza construcţiei europene.
+    </p>
+    <p>În prezent, reprezentanţii ANAF participă la o gamă largă de activităţi legate de cooperarea internaţională: reuniuni ale grupurilor de lucru organizate la nivelul instituţiilor europene (vizite şi ateliere de lucru desfăşurate prin programul FISCALIS, evenimente organizate în cadrul I.O.T.A. precum şi activităţi din cadrul proiectelor desfăşurate pe baze bilaterale cu reprezentanţii altor administraţii fiscale).
+    </p>
+    <h3>Obiectivele ANAF in domeniul cooperării internaţionale pentru următorii 4 ani
+    </h3>
+    <p>Unul dintre obiectivele noastre în acest domeniu constă în îmbunătăţirea imaginii pe plan internaţional prin asigurarea unei prezenţe mai active a experţilor ANAF în cadrul organizaţiilor internationale, în relaţiile cu statele membre la UE şi în procesul decizional derulat la nivelul instituţiilor europene.
+    </p>
+    <p>Concentrarea eforturilor noastre în direcţia îmbunătăţirii cooperării cu celelalte administraţii fiscale europene este un alt obiectiv ce vizează combaterea fenomenului de fraudă fiscală.
+    </p>
+    <p>De asemenea, ne-am propus să utilizăm in cel mai bun mod experienţa altor state pentru nevoile interne de dezvoltare, prin promovarea schimburilor de experienţă şi a unor relaţii de parteneriat la nivel bilateral cu alte administraţii fiscale europene.
+    </p>
+    <p>În perspectiva anilor care urmează, ne-am propus sa devenim un furnizor de asistenţă tehnică pentru administraţiile fiscale din state în curs de aderare sau de dezvoltare, în conformitate cu Politica de asistenţă pentru dezvoltare a Uniunii Europene.</p>
+  </div>
+  
+  <div>
+    
+    <div class="titluSageata"
+    (click)="changeProiecte()"
+    [ngClass]="{'pressed': proiecte}"
+    >
+      <p>2. Proiecte</p>
+      <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M10.5 18L0.540708 0.75L20.4593 0.750002L10.5 18Z" fill="#2E2A72"/>
+      </svg>
+    </div>
+
+    <div class="showed border-left"
+    *ngIf="proiecte"
+    >
+    <li
+    *ngFor="let proiect of cuprinsProiecte"
+    [innerHTML]="proiect"
+    >
+
+    </li>
+    </div>
+    
+  </div>
+  <div>
+    
+    <div class="titluSageata"
+    (click)="changeBanca()"
+    [ngClass]="{'pressed': bancaMondiala}"
+    >
+    <p>3. Banca mondiala</p>
+    <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10.5 18L0.540708 0.75L20.4593 0.750002L10.5 18Z" fill="#2E2A72"/>
+    </svg>
+    </div>
+
+    <div class="showed"
+    *ngIf="bancaMondiala"
+    >
+    <p class="modernizareAdm"> > <a href='https://www.anaf.ro/anaf/internet/ANAF/info_anaf/relatii_internationale/banca_mondiala/ramp' target="_blank">Proiectul de modernizare a administrației fiscale (RAMP)</a></p>
+    </div>
+
+  </div>
+</div>

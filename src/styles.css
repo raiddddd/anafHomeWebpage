@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+:root {
+  --blue-1: #D4D2EE;
+  --blue-2: #BAB7F0;
+  --blue-3: #8F8AEB;
+  --blue-4: #5E57E2;
+  --blue-5: #453EBD;
+  --blue-6: #3D389A;
+  --blue-7: #2e2a72;
+  --blue-8: #201D55;
+  --blue-9: #161439;
+  --grey-1: #EEEEEE;
+  --grey-2: #D8D8D8;
+  --grey-3: #C0C0C0;
+  --grey-4: #A5A5A5;
+  --grey-5: #8A8888;
+  --grey-6: #716E6E;
+  --grey-7: #5B5858;
+  --grey-8: #413E3E;
+  --grey-9: #242222;
+  --white: #FFFFFF;
+
+  --font-size-16: 16px;
+  --font-size-24: 24px;
+  --font-size-32: 32px;
+  --font-size-44: 44px;
+
+  --font-weight-100: 100;
+  --font-weight-300: 300;
+  --font-weight-400: 400;
+  --font-weight-500: 500;
+  --font-weight-600: 600;
+  --font-weight-700: 700;
+  --font-weight-900: 900;
+
+}

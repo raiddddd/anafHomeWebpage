@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+.divulPrincipal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 48px 39px;
+  height: 430px;
+  width: 370px;
+  background-color: #201D55;
+  color: white;
+  border-radius: 15px;
+}
+
+.textTitlu {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+h3 {
+  font-size: 32px;
+  margin: 0px;
+}
+
+p {
+  font-size: 24px;
+  margin: 0px;
+}
+
+.divulPrincipal button {
+  color: #201D55;
+  background-color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+
+
+.mareaSectiune {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.divulPrincipal button:hover {
+  cursor: pointer;
+  font-size: 25px;
+}

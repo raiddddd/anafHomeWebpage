@@ -1,0 +1,112 @@
+.navigarePrincipala a {
+  font-size: 24px;
+  color: #201D55;
+  text-decoration: none;
+  width:auto;
+  height: auto;
+  background-color: white;
+  text-align: center;
+  padding: 14px 40px;
+}
+
+.navigarePrincipala a:hover {
+  background-color: #2E2A72;
+  color: white;
+}
+
+.containerOptiuni:hover a{
+  color: white;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.logoNavBar {
+  height: 100px;
+  margin-left: 80px;
+}
+
+.icon {
+  height: 34px;
+}
+
+.despartitor {
+  font-weight: 600;
+  font-size: 34px;
+}
+
+.limba {
+  display: flex;
+  align-items: center;
+}
+
+.limbaSearch {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-right: 80px;
+}
+
+.deasupraPrincipala {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigarePrincipala {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnAutentificare {
+  width: 177px;
+  height: 37px;
+  border: none;
+  border-radius: 5px;
+  background-color: #D8D8D8;
+  color: #2E2A72;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btnAutentificare:hover {
+  background-color: #C0C0C0;
+}
+
+input {
+  /* width: 177px;
+  height: 38px; */
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  background-color: #EEEEEE;
+  /* box-shadow: 1px 1px 4px 2px rgba(0,0,0,0.25); */
+  transition: all, 0.4s;
+}
+
+input,
+input::placeholder {
+  font-size: 16px;
+}
+
+input:focus {
+  width: 400px;
+  outline: none;
+}  
+
+.iconSearch {
+    height: 22px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #EEEEEE;
+    box-shadow: 1px 1px 4px 2px rgba(0,0,0,0.25);
+    padding: 8px 13px;
+  }
+  

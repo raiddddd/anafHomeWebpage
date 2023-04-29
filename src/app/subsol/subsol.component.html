@@ -1,0 +1,18 @@
+<div class="toate">
+  
+  <div class="enumeratii">
+    <app-trimiteri-subsol
+    *ngFor="let bucata of siteSubsol"
+    [unu]="bucata.unu"
+    [doi]="bucata.doi"
+    [trei]="bucata.trei"
+    [patru]="bucata.patru"
+    [unuURL]="bucata.unuURL"
+    [doiURL]="bucata.doiURL"
+    [treiURL]="bucata.treiURL"
+    [patruURL]="bucata.patruURL">
+  </app-trimiteri-subsol>
+</div>
+<app-logo-finante></app-logo-finante>
+
+</div>

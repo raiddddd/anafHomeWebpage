@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  width: 250px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+p {
+  max-width: 250px;
+  font-size: 18px;
+  color: var(--blue-7);
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 90px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}

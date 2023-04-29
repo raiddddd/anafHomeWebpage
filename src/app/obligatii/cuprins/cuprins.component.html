@@ -1,0 +1,10 @@
+<div>
+
+  <h3>Cuprins</h3>
+  <ul>
+    <li
+    *ngFor="let element of cuprins; let i=index"
+    (click)="onClick(id_uri[i])"
+    >{{element}}</li>
+  </ul>
+</div>

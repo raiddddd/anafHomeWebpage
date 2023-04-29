@@ -1,0 +1,58 @@
+.backgroundAlbastru {
+  background-color: #2E2A72;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+  margin-bottom: 50px;
+}
+
+.enumeratiiLista {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 850px;
+}
+
+.backgroundAlbastru h3 {
+  font-size: 32px;
+  font-weight: 600;
+  text-decoration: underline;
+  margin-bottom: 40px;
+}
+
+.backgroundAlbastru p {
+  max-width: 900px;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.codFiscal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 110px;
+}
+
+.codFiscal p {
+  font-size: 24px;
+  color: #2E2A72;
+}
+
+.codFiscal button {
+  background-color: #3D389A;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 28px;
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.codFiscal button:hover {
+  background-color: #201D55;
+}

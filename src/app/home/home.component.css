@@ -1,0 +1,19 @@
+app-sectiuni-principale {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 80px;
+  gap: 55px;
+}
+
+.invers {
+  flex-direction: row-reverse;
+  background-color: #FFFFFF;
+  color: #2E2A72;
+}
+
+.normal {
+  flex-direction: row;
+  color: white;
+  background-color: #2E2A72 ;
+}

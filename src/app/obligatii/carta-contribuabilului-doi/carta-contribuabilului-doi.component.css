@@ -1,0 +1,67 @@
+* {
+  color: #2E2A72;
+  font-size: 24px;
+  margin-left: 60px;
+}
+
+.explicatie {
+  margin-left: 90px;
+  font-size: 24px;
+}
+
+img {
+  display: block;
+  margin: 0px auto;
+  width: 1100px;
+  margin-bottom: 50px;
+}
+
+ul {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+li {
+  font-weight: 600;
+}
+
+.button {
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 10px;
+}
+
+.button * {
+  margin: 0px;
+}
+
+.button img {
+  width: 44px;
+  height: 40px;
+}
+
+.button button {
+  padding: 5px 12px;
+  font-size: 24px;
+  color: white;
+  background-color: #3D389A;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button button:hover {
+  background-color: #201D55;
+}
+
+.drepturi {
+  font-size: 20px;
+  margin: 0px auto;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 150px;
+}

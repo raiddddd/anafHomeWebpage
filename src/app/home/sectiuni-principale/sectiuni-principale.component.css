@@ -1,0 +1,54 @@
+p {
+  font-size: 36px;
+  text-align: center;
+  width: 600px;
+}
+
+button {
+  font-size: 30px;
+  border-radius: 5px;
+  padding: 16px 32px;
+  font-weight: 600;
+  border: none;
+}
+
+button:hover {
+  position: relative;
+  font-size: 31px;
+  box-shadow: 0px 1.83371px 2.75056px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.PBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto 0px;
+}
+
+.All {
+  display: flex;
+  padding: 80px;
+}
+
+.invers {
+  flex-direction: row-reverse;
+}
+
+[class="invers"] button {
+ background-color: #3D389A;
+ color: #FFFFFF;
+}
+
+[class="invers"] button:hover {
+  background-color: #201D55;
+}
+
+[class="normal"] button {
+  color: #201D55;
+  background-color: #FFFFFF;
+}
+
+[class="normal"] button:hover {
+  background-color: #EEEEEE;
+}

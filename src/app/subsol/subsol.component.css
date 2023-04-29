@@ -1,0 +1,10 @@
+.toate {
+  background-color: #201D55;
+  color: white;
+}
+
+.enumeratii {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 10%;
+}
