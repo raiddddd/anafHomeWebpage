@@ -9,3 +9,7 @@ I will continue with a resume of what I did, how I did it and I will evaluate my
 
 ## What I did
 I transformed the current ANAF webpage in something more easy to follow and understand, by that improving the overall experience of anyone visiting the site. Everything on the site is grouped accordingly to its purpose, so you can find the thing you are interested about. In this way you won't feel lost on the page searching for something that should be in a category, only to find it somewhere else. Everything is intuitively grouped, and each 'big' topic has its own page/section.
+
+
+## How I did it
+After generating the Angular project I made a component for each big section of the page. After that, I went into each component and I created sub-components, trying to break each section in subsections as much as possible, applying the [Separation of Concerns](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenseperation_concerns_guidl.htm#:~:text=Separation%20of%20concerns%20is%20a,and%20arrangement%20in%20software%20layers.) principle. In this way I tried to minimise the impact of each subcomponent on the other subcomponents. A change in one of them won't imply or break another one.
